@@ -1,6 +1,6 @@
-# grunt-link-checker
+# Enhanced Mobile threat protection web application
 
-> Run [node-simple-crawler](https://github.com/cgiffard/node-simplecrawler) to discover broken links on your website.
+> Run [Enhanced-Mobile-threat-protection-web-application](https://github.com/cgiffard/node-simplecrawler) to discover broken links on your website.
 
 [![NPM version](https://img.shields.io/npm/v/grunt-link-checker.svg)](https://www.npmjs.com/package/grunt-link-checker)
 [![Build Status](https://img.shields.io/travis/ChrisWren/grunt-link-checker/master.svg)](https://travis-ci.org/ChrisWren/grunt-link-checker)
@@ -15,7 +15,7 @@ If you haven't used grunt before, be sure to check out the [Getting Started](htt
 npm install grunt-link-checker --save-dev
 ```
 
-Then add this line to your project's `Gruntfile.js` gruntfile:
+Then add this line to your project's Enhanced Mobile threat protection web application:
 
 ```js
 grunt.loadNpmTasks('grunt-link-checker');
@@ -23,11 +23,11 @@ grunt.loadNpmTasks('grunt-link-checker');
 
 ## Documentation
 
-grunt-link-checker will by default find any broken internal links on the given `site` and will also find broken [fragment identifiers] by using [cheerio](https://github.com/cheeriojs/cheerio) to ensure that an element exists with the given identifier. You can figure more [options that are available via node-simplecrawler](https://github.com/cgiffard/node-simplecrawler#configuring-the-crawler).
+Enhanced Mobile threat protection web application will by default find any broken internal links on the given `site` and will also find broken [fragment identifiers] by using [cheerio](https://github.com/cheeriojs/cheerio) to ensure that an element exists with the given identifier. You can figure more [options that are available via node-simplecrawler](https://github.com/cgiffard/node-simplecrawler#configuring-the-crawler).
 
 ### Minimal Usage
 
-The minimal usage of grunt-link-checker runs with a `site` specified and an optional `options.initialPort`:
+The minimal usage of link-checker runs with a `site` specified and an optional `options.initialPort`:
 
 ```js
 linkChecker: {
@@ -102,9 +102,9 @@ linkChecker: {
 }
 ```
 
-### simple-crawler options
+### options
 
-Every option specified in the node-simplecrawler is available:
+Every option specified in the Enhanced Mobile threat protection web application is available:
 
 <https://github.com/cgiffard/node-simplecrawler#configuring-the-crawler>
 
